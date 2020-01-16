@@ -15,7 +15,7 @@
 # nodejs 10.16.+ required 
 VERSION=v10.17.0
 DISTRO=linux-armv6l
-wget https://nodejs.org/dist/latest-v10.x/node-$VERSION-$DISTRO.tar.gz
+wget https://nodejs.org/dist/$VERSION/node-$VERSION-$DISTRO.tar.gz
 sudo mkdir -p /usr/local/lib/nodejs
 sudo tar -xvf node-$VERSION-$DISTRO.tar.gz -C /usr/local/lib/nodejs 
 # Link binaries to /usr/bin
